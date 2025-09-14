@@ -2,6 +2,7 @@ module github.com/go-shiori/shiori
 
 // +heroku goVersion go1.23.6
 go 1.23.6
+toolchain go1.24.1
 
 require (
 	git.sr.ht/~emersion/go-sqlite3-fts5 v0.0.0-20240124102820-f3a72e8b79b1
@@ -34,10 +35,10 @@ require (
 	github.com/swaggo/http-swagger/v2 v2.0.2
 	github.com/swaggo/swag v1.16.4
 	github.com/testcontainers/testcontainers-go v0.35.0
-	golang.org/x/crypto v0.35.0
+	golang.org/x/crypto v0.36.0
 	golang.org/x/image v0.24.0
-	golang.org/x/net v0.36.0
-	golang.org/x/term v0.29.0
+	golang.org/x/net v0.38.0
+	golang.org/x/term v0.30.0
 	modernc.org/sqlite v1.36.0
 )
 
@@ -117,8 +118,8 @@ require (
 	go.opentelemetry.io/otel/sdk v1.31.0 // indirect
 	go.opentelemetry.io/otel/trace v1.34.0 // indirect
 	golang.org/x/exp v0.0.0-20250228200357-dead58393ab7 // indirect
-	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/tools v0.30.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241230172942-26aa7a208def // indirect
 	google.golang.org/grpc v1.69.2 // indirect
